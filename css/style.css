@@ -297,6 +297,9 @@ main section h2:before{
 .contact_informations a:visited, .follow_informations a:visited{
     color: rgb(255, 255, 255);
 }
+.follow_informations a{
+    margin: 1em;
+}
 .contact_informations{
     margin-bottom: 2.5em;
 }
