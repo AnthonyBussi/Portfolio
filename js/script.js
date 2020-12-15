@@ -1,11 +1,9 @@
-$(document).ready(function() {
-    $('.js-scrollTo').on('click', function() { // Au clic sur un élément
-        var page = $(this).attr('href'); // Page cible
-        var speed = 700; // Durée de l'animation (en ms)
-        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-        return false;
-    });
-});
+function scrollToLink(){
+    var page = $(this).attr('href');
+    var speed = 700;
+    $('html, body').animate({scrollTop : $(page).offset().top}, speed);
+    return false;
+}
 
 
 function menuHamburger()
@@ -13,9 +11,10 @@ function menuHamburger()
 	$('.header-menu').toggleClass('is-open');
 }
 
-// gestionnaire d'evenements
+// Gestionnaire d'évènements
 $(function()
     {
         $('.navbar-toggle').on("click",menuHamburger);
+        $('.js-scrollTo').on('click', scrollToLink);
     }
 );
