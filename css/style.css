@@ -451,6 +451,12 @@ footer{
         line-height: 1.5em;
         width: 100%;
     }
+	.personnal_project .techno{
+        text-align: center;
+        text-indent: 0;
+    }
+	
+	
     #projects .code_source a{
         font-size: 1.6em;
         transition: all 0.15s;
