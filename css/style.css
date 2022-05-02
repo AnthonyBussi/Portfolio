@@ -208,7 +208,7 @@ main section h2:before{
 
 
 /* PROJECTS */
-.school_project, .personnal_project{
+.professionnal_project, .school_project, .personnal_project{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,44 +216,44 @@ main section h2:before{
     text-align: center;    
     margin-top: 1em;
 }
-.school_project .project, .personnal_project .project{
+.professionnal_project .project, .school_project .project, .personnal_project .project{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1em;
 }
-.school_project h3, .personnal_project h3{
+.professionnal_project h3, .school_project h3, .personnal_project h3{
     margin-bottom: 1.5em;
 }
-.school_project img, .personnal_project img{
+.professionnal_project img, .school_project img, .personnal_project img{
     max-width: 70%;
     margin: auto;
 }
-.school_project .project .project-txt, .personnal_project .project .project-txt{
+.professionnal_project .project-txt, .school_project .project .project-txt, .personnal_project .project .project-txt{
     line-height: 1.5em;
     text-align: justify;
     text-indent: 2em;
 
 }
-.school_project .project .project-txt p, .personnal_project .project .project-txt p{
+.professionnal_project .project .project-txt p, .school_project .project .project-txt p, .personnal_project .project .project-txt p{
     margin-bottom: 0.5em;    
 }
-.school_project .project .project-txt .code_source, .personnal_project .project .project-txt .code_source{
+.professionnal_project .project .project-txt .code_source, .school_project .project .project-txt .code_source, .personnal_project .project .project-txt .code_source{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.school_project a, .personnal_project a{
+.professionnal_project a, .school_project a, .personnal_project a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     margin: 1em 0;
 }
-.school_project a:visited, .personnal_project a:visited{
+.professionnal_project a:visited, .school_project a:visited, .personnal_project a:visited{
     color: rgb(255, 255, 255);
 }
-.personnal_project{
+.school_project, .personnal_project{
     border-top: 1px solid rgb(255, 255, 255);
     padding-top: 1.5em;
 }
@@ -440,14 +440,14 @@ footer{
         width: 50%;
         margin: auto;
     } */
-    .school_project img, .personnal_project img{
+    .professionnal_project img, .school_project img, .personnal_project img{
         max-width: 50%;
         transition: all 0.25s;
     }
-    .school_project img:hover, .personnal_project img:hover{
+    .professionnal_project img:hover, .school_project img:hover, .personnal_project img:hover{
         transform: scale(1.1);
     }
-    .school_project .project .project-txt, .personnal_project .project .project-txt {
+    .professionnal_project .project .project-txt, .school_project .project .project-txt, .personnal_project .project .project-txt {
         line-height: 1.5em;
         width: 100%;
     }
